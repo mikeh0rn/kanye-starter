@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Branch
+// TO DO: Import Branch
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,24 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        Branch.getInstance().initSession(launchOptions: launchOptions) { (params, error) in
-            print(params as? [String: AnyObject] ?? {})
+        //TO DO: add Branch documentation callback code
             
-                let storyboard = UIStoryboard(name: "Main", bundle: nil);
-                let quoteViewController: QuoteViewController = storyboard.instantiateViewController(withIdentifier: "QuoteViewController") as! QuoteViewController;
-                let quote = params?["quote"] as! String?
-                if let unwrappedQuote = quote {
-                    quoteViewController.quote = unwrappedQuote
-
-                let rootViewController = self.window!.rootViewController as! UINavigationController;
-                rootViewController.pushViewController(quoteViewController, animated: true);
-            }
-            
-        }
+        //TO DO: add Swift-specific code from PasteBin
+        
         return true
     }
+        // URI schemes received the deep link URL through openUrl in the App Delegate. Universal Links receive their data via a different code path: continueUserActivity.
     
-    //TODO: openURL and continueUserActivity
+        // TO DO: add openURL and continueUserActivity functions from docs
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
