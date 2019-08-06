@@ -14,7 +14,6 @@
 		8C55B2DA228B62070092A49A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C55B2D8228B62070092A49A /* LaunchScreen.storyboard */; };
 		8C55B2E2228B64CD0092A49A /* KanyeQuotes.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 8C55B2E1228B649E0092A49A /* KanyeQuotes.entitlements */; };
 		8C8B036D22B7FC1B00AE3155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8B036C22B7FC1B00AE3155 /* Assets.xcassets */; };
-		8C8CD33F229846990052CE9C /* VCR_OSD_MONO_1.001.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C8CD33E229846870052CE9C /* VCR_OSD_MONO_1.001.ttf */; };
 		CAC015D2E24AB6B875D07A57 /* Pods_KanyeQuotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966D733E2A7432FBA3684EAF /* Pods_KanyeQuotes.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,7 @@
 		8C55B2DB228B62070092A49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C55B2E1228B649E0092A49A /* KanyeQuotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KanyeQuotes.entitlements; sourceTree = "<group>"; };
 		8C8B036C22B7FC1B00AE3155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8C8CD33E229846870052CE9C /* VCR_OSD_MONO_1.001.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = VCR_OSD_MONO_1.001.ttf; path = ../../../../../Downloads/VCR_OSD_MONO_1.001.ttf; sourceTree = "<group>"; };
+		8CD0C2AB22F9A33C00C95F49 /* VCR_OSD_MONO_1.001.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = VCR_OSD_MONO_1.001.ttf; path = ../../../../Downloads/VCR_OSD_MONO_1.001.ttf; sourceTree = "<group>"; };
 		966D733E2A7432FBA3684EAF /* Pods_KanyeQuotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanyeQuotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03D88D751765554661EACAD /* Pods-KanyeQuotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanyeQuotes.release.xcconfig"; path = "Target Support Files/Pods-KanyeQuotes/Pods-KanyeQuotes.release.xcconfig"; sourceTree = "<group>"; };
 		FA4C787A1CDA1586C0016F36 /* Pods-KanyeQuotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanyeQuotes.debug.xcconfig"; path = "Target Support Files/Pods-KanyeQuotes/Pods-KanyeQuotes.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,7 +107,7 @@
 		8C8CD33D229846660052CE9C /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				8C8CD33E229846870052CE9C /* VCR_OSD_MONO_1.001.ttf */,
+				8CD0C2AB22F9A33C00C95F49 /* VCR_OSD_MONO_1.001.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -181,7 +180,6 @@
 				8C55B2E2228B64CD0092A49A /* KanyeQuotes.entitlements in Resources */,
 				8C55B2DA228B62070092A49A /* LaunchScreen.storyboard in Resources */,
 				8C55B2D5228B62050092A49A /* Main.storyboard in Resources */,
-				8C8CD33F229846990052CE9C /* VCR_OSD_MONO_1.001.ttf in Resources */,
 				8C8B036D22B7FC1B00AE3155 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

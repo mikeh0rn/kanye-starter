@@ -7,8 +7,7 @@
 //
 
 import UIKit
-
-//TODO: Import Branch
+import Branch
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,16 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Branch.getInstance().initSession(launchOptions: launchOptions) { (params, error) in
             print(params as? [String: AnyObject] ?? {})
             
-            // TODO: add clicked branch link
-            
-            // TODO: wrap in conditional:
                 let storyboard = UIStoryboard(name: "Main", bundle: nil);
                 let quoteViewController: QuoteViewController = storyboard.instantiateViewController(withIdentifier: "QuoteViewController") as! QuoteViewController;
                 let quote = params?["quote"] as! String?
                 if let unwrappedQuote = quote {
                     quoteViewController.quote = unwrappedQuote
-            // TODO: close conditional!
-                
+
                 let rootViewController = self.window!.rootViewController as! UINavigationController;
                 rootViewController.pushViewController(quoteViewController, animated: true);
             }

@@ -21,7 +21,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>TODO</string>
+				<string>kanye</string>
 			</array>
 		</dict>
 	</array>
@@ -55,8 +55,8 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>branch_app_domain</key>
-	<string>TODO</string>
+	<string>kanye.app.link</string>
 	<key>branch_key</key>
-	<string>TODO</string>
+	<string>key_live_ifQwmo474nscVWN71bhOQmbeFud0WzWN</string>
 </dict>
 </plist>

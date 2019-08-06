@@ -6,6 +6,7 @@ target 'KanyeQuotes' do
   use_frameworks!
   pod 'SwiftyJSON'
   pod 'Alamofire'
+  pod 'Branch'
   # Pods for KanyeQuotes
 
 end
