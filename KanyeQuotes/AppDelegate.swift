@@ -8,6 +8,7 @@
 
 import UIKit
 // TO DO: Import Branch
+// TO DO: Add app.link domains to Associated Domains
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

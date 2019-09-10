@@ -21,7 +21,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>kanye</string>
+				<string>TODO: Register your app to respond to direct deep links</string>
 			</array>
 		</dict>
 	</array>
@@ -57,6 +57,11 @@
 	<key>branch_app_domain</key>
 	<string>kanye.app.link</string>
 	<key>branch_key</key>
-	<string>key_live_ifQwmo474nscVWN71bhOQmbeFud0WzWN</string>
+	<dict>
+		<key>live</key>
+		<string>key_live_ifQwmo474nscVWN71bhOQmbeFud0WzWN</string>
+		<key>test</key>
+		<string>key_test_naUCfh333aqoSXNX1hl2dahbwtoZ3v64</string>
+	</dict>
 </dict>
 </plist>
